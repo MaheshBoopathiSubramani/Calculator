@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="size"><center><b><i>CALCULATOR</i></b></center></div>
+        <div id="calculator" >
+        
+            <div id="first">
+                <b>0</b>
+            </div>
+            <div id="second">
+                <div id="a">
+                    <div id="num1">
+                         <button id="seven" onclick="display('7')">7</button>
+                         <button id="eight" onclick="display('8')">8</button>
+                         <button id="nine" onclick="display('9')">9</button>
+                         <button id="div" onclick="display('/')">/</button>
+                    </div>                     
+                </div>
+                <div id="b">
+                    <div id="num2">
+                        <button id="four" onclick="display('4')">4</button>
+                        <button id="five" onclick="display('5')">5</button>
+                        <button id="six" onclick="display('6')">6</button>
+                        <button id="star" onclick="display('*')">*</button>
+                   </div>     
+
+                </div>
+                <div id="c">
+                    <div id="num3">
+                        <button id="one"onclick="display('1')">1</button>
+                        <button id="two" onclick="display('2')">2</button>
+                        <button id="three" onclick="display('3')">3</button>
+                        <button id="sub" onclick="display('-')">-</button>
+                   </div>     
+
+                </div>
+                <div id="d">
+                    <div id="num1">
+                        <button id="arrow" onclick="back()">&lArr;</button>
+                        <button id="zero" onclick="display('0')">0</button>
+                        <button id="dot" onclick="display('.')">.</button>
+                        <button id="add" onclick="display('+')">+</button>
+                   </div>     
+
+                </div>
+                <div id="e">
+                    <button id="ce" onclick="clr()">CE</button>
+                    <button id="eq" onclick="equale()">=</button>
+
+                </div>
+        
+                
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+
+</html>
